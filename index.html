@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap Project</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!--Top Bar-->
-<div class="topbar">
+    <!--Sign In-->
+<div class="top-bar">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="sign-in col-sm-6">
                 <ul>
                     <li><a href="#">My Wishlist (0)</a></li>
                     <li><a href="#">My Account</a></li>
@@ -20,23 +21,23 @@
                     <li><a href="#">Checkout</a></li>
                 </ul>
             </div>
-            <div class="col-sm-6">
+            <div class="account col-sm-6">
                 <p>Welcome vistor you can <a href="#">login</a> or <a href="#">create an account</a></p>
             </div>
         </div>
     </div>
 </div>
-    <!--Logo Bar-->
+    <!--Logo-->
 <div class="container">
     <div class="row">
-        <div class="col-sm-8">
-            <img src="http://via.placeholder.com/250x100">
+        <div class="logo-bar col-sm-8">
+            <img src="images/logo.jpg">
         </div>
-        <div class="col-sm-4">
+        <div class="logo-word col-sm-4">
             <ul>
-                <li>US Dollar</li>
-                <li>English</li>
-                <li><a href="#">0 item(s) - $0.00</a></li>
+                <li><a href="#">US Dollar</a></li>
+                <li><a href="#">English</a></li>
+                <li class="cart"><a href="#">0 item(s) - $0.00</a></li>
             </ul>
         </div>
     </div>
@@ -44,7 +45,7 @@
     <!--Home Bar-->
 <div class="container">
     <div class="row">
-        <div class="col-sm-8">
+        <div class="home-bar col-sm-8">
             <ul>
                 <li><a href="#">FASHION</a></li>
                 <li><a href="#">ELECTRONICS</a></li>
@@ -56,63 +57,61 @@
         </div>
         <div class="col-sm-4">
             <form>
-                <textarea rows="1" cols="25" placeholder="Searh here..."></textarea>
-                <input type="Submit" value="Submit" />
+                <input type="text" placeholder="Searh here..." />
+                <input class="search" type="Submit" value="Search" />
             </form>
         </div>
     </div>
 </div>
-    <!--hero image-->
-<div class="container">
-    <img src="http://via.placeholder.com/1000x300">
+    <!--Hero Image-->
+<div class="hero-back">
+    <img class="img-responsive" src="images/hero.jpg">
 </div>
-    <!--promotions-->
+    <!--Promotions-->
 <div class="container">
-    <div class="row">
+    <div class="promo row">
         <div class="col-sm-4">
-            <img src="http://via.placeholder.com/300x150">
+            <img src="images/ad1.jpg">
         </div>
         <div class="col-sm-4">
-            <img src="http://via.placeholder.com/300x150">
+            <img src="images/ad2.jpg">
         </div>
         <div class="col-sm-4">
-            <img src="http://via.placeholder.com/300x150">
+            <img src="images/ad3.jpg">
         </div>
     </div>
 </div>
     <!--Latest-->
 <div class="container">
     <div class="row">
-        <div class="col-sm-10">
+        <div class="nflash col-sm-10">
             <h1>Latest</h1>
             <p>Buy discount items from latest collection of world brands.</p>
         </div>
-        <div class="col-sm-2">
-            <a>&lt;</a>
-            <a>&gt;</a>
+        <div class="btn col-sm-2">
+            <a href="#">&lt;</a>
+            <a href="#">&gt;</a>
         </div>
     </div>
-</div>
-<div class="container">
-    <div class="row">
+    <div class="add-cart row">
         <div class="col-sm-3">        
-            <img src="http://via.placeholder.com/200x100">
-            <h3>Jewelry Bracelet Cara Accessories</h3>
+            <img src="images/latest1.jpg">
+            <h2>Jewelry Bracelet Cara<br>Accessories</h2>
             <a href="#">ADD TO CART</a>
         </div>
         <div class="col-sm-3">
-            <img src="http://via.placeholder.com/200x100">
-            <h3>Jessica London Short Trench Coat</h3>
+            <img src="images/latest2.jpg">
+            <h2>Jessica London Short<br>Trench Coat</h2>
             <a href="#">ADD TO CART</a>
         </div>
         <div class="col-sm-3">
-            <img src="http://via.placeholder.com/200x100">
-            <h3>Mocca Stretch Leather Gloves</h3>
+            <img src="images/latest3.jpg">
+            <h2>Mocca Stretch Leather<br>Gloves</h2>
             <a href="#">ADD TO CART</a>
         </div>
         <div class="col-sm-3">
-            <img src="http://via.placeholder.com/200x100">
-            <h3>Limited Edition Knitted Sweater</h3>
+            <img src="images/latest4.jpg">
+            <h2>Limited Edition Knitted<br>Sweater</h2>
             <a href="#">ADD TO CART</a>
         </div>
     </div>
@@ -120,49 +119,47 @@
     <!--Vendor-->
 <div class="container">
     <div class="row">
-        <div class="col-sm-8">
+        <div class="wtv col-sm-8">
             <h1>Welcome to Venedor</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus perferendis quos numquam ipsum consequatur reiciendis dolore vel ratione delectus? Adipisci nulla blanditiis quasi tempore illo tenetur praesentium ea maxime cumque?</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sit iure, ipsum quibusdam adipisci doloribus consequuntur modi officia, quam sunt dolor ut obcaecati optio ea aliquam asperiores odit tempore rem. <a href="#">Buy Venedor Theme</a></p>
         </div>
         <div class="col-sm-4">
-            <img src="http://via.placeholder.com/500x250">
+            <img src="images/vendor.jpg">
         </div>
     </div>
 </div>
     <!--Bestsellers-->
 <div class="container">
     <div class="row">
-        <div class="col-sm-10">
+        <div class="best col-sm-10">
             <h1>Bestsellers</h1>
             <p>Special offers and biggest discounts for the most popular products.</p>
         </div>
-        <div class="col-sm-2">
-            <a>&lt;</a>
-            <a>&gt;</a>
+        <div class="btn col-sm-2">
+            <a href="#">&lt;</a>
+            <a href="#">&gt;</a>
         </div>
     </div> 
-</div>    
-<div class="container">
-    <div class="row">
+    <div class="add-cart row">
         <div class="col-sm-3">
-            <img src="http://via.placeholder.com/200x100">
-            <h3>Jewelry Bracelet Cara Accessories</h3>
+            <img src="images/bs1.jpg">
+            <h2>Jewelry Bracelet Cara<br>Accessories</h2>
             <a href="#">ADD TO CART</a>
         </div>
         <div class="col-sm-3">     
-            <img src="http://via.placeholder.com/200x100">
-            <h3>Jessica London Short Trench Coat</h3>
+            <img src="images/bs2.jpg">
+            <h2>Jessica London Short<br>Trench Coat</h2>
             <a href="#">ADD TO CART</a>
         </div> 
         <div class="col-sm-3">
-            <img src="http://via.placeholder.com/200x100">
-            <h3>Mocca Stretch Leather Gloves</h3>
+            <img src="images/bs3.jpg">
+            <h2>Mocca Stretch Leather<br>Gloves</h2>
             <a href="#">ADD TO CART</a>
         </div>
         <div class="col-sm-3">
-            <img src="http://via.placeholder.com/200x100">
-            <h3>Limited Edition Knitted Sweater</h3>
+            <img src="images/bs4.jpg">
+            <h2>Limited Edition Knitted<br>Sweater</h2>
             <a href="#">ADD TO CART</a>
         </div>
     </div>
@@ -170,105 +167,135 @@
     <!--Manufacturers-->
 <div class="container">
     <div class="row">
-        <div class="col-sm-12">
+        <div class="mf col-sm-10">
             <h1>Manufacturers</h1>
         </div>
+        <div class="btn col-sm-2">
+            <a href="#">&lt;</a>
+            <a href="#">&gt;</a>
+        </div>
     </div>
-</div>
-<div class="container">
-    <div class="row">
+    <div class="mf-img row">
         <div class="col-sm-2">
-            <img src="http://via.placeholder.com/100x100">
+            <img src="images/bl.jpg">
         </div>
         <div class="col-sm-2">   
-            <img src="http://via.placeholder.com/100x100">
+            <img src="images/bl.jpg">
         </div>
         <div class="col-sm-2">    
-            <img src="http://via.placeholder.com/100x100">
+            <img src="images/bl.jpg">
         </div>
         <div class="col-sm-2">   
-            <img src="http://via.placeholder.com/100x100">
+            <img src="images/bl.jpg">
         </div>
         <div class="col-sm-2">   
-            <img src="http://via.placeholder.com/100x100">
+            <img src="images/bl.jpg">
         </div>
         <div class="col-sm-2">  
-            <img src="http://via.placeholder.com/100x100">
+            <img src="images/bl.jpg">
         </div>  
     </div>
 </div>
-    <!--footer1-->
+    <!--Sign Up-->
 <div class="footertop">
     <div class="container">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="signup-word col-sm-8">
                 <h3>SIGN UP TO RECEIVE THAT LATEST FASHION NEWS</h3>
             </div>
-            <div class="col-sm-4">
+            <div class="signup col-sm-4">
                 <form>
-                    <textarea rows="1" cols="20" placeholder="Enter your email address"></textarea>
-                    <input type="Submit" value="SIGN UP" />
+                    <input class="signupbox" type="text" placeholder="Enter your email address">
+                    <input class="signbtn" type="Submit" value="SIGN UP" />
                 </form>
             </div>
         </div>
     </div>
 </div>
-    <!--social media-->
+    <!--Social Media-->
 <div class="footerbot">
     <div class="container">
         <div class="row">
-            <div class="col-sm-3">    
+            <div class="pl col-sm-3">    
                 <h3>MY ACCOUNT</h3>
                 <ul>
-                    <li>My Account</li>
-                    <li>Personal Information</li>
-                    <li>Address</li>
-                    <li>Discount</li>
-                    <li>Orders history</li>
-                    <li>Your Vouchers</li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Personal Information</a></li>
+                    <li><a href="#">Address</a></li>
+                    <li><a href="#">Discount</a></li>
+                    <li><a href="#">Orders history</a></li>
+                    <li><a href="#">Your Vouchers</a></li>
                 </ul>
             </div>    
-            <div class="col-sm-3">
+            <div class="pl col-sm-3">
                 <h3>INFORMATION</h3>
                 <ul>
-                    <li>New products</li>
-                    <li>Top sellers</li>
-                    <li>Specials</li>
-                    <li>Manufacturers</li>
-                    <li>Supplies</li>
-                    <li>Our Stores</li>
+                    <li><a href="#">New products</a></li>
+                    <li><a href="#">Top sellers</a></li>
+                    <li><a href="#">Specials</a></li>
+                    <li><a href="#">Manufacturers</a></li>
+                    <li><a href="#">Supplies</a></li>
+                    <li><a href="#">Our Stores</a></li>
                 </ul>
             </div>
-            <div class="col-sm-3">
+            <div class="social col-sm-3">
                 <h3>FROM TWITTER</h3>
                 <ul>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium reprehenderit unde ratione at blanditiis officia dolor, impedit nam? Perferendis!<a href="#">http://t.co/Mqacj2432</a></li>
-                    <li>about 1 hours ago</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium reprehenderit unde ratione at blanditiis officia dolor, impedit nam? Perferendis!<a href="#">http://t.co/Mqacj2432</a></li>
-                    <li>about 3 hours ago</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit animi, cumque corporis similique rem ex.!<a href="#"> http://t.co/Mqacj2432</a></li>
+                    <li class="social-hour">about 1 hours ago</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque neque laboriosam quod eos ut dicta rerum <a href="#"> http://t.co/Mqacj2432</a> nihil temporibus natus optio!</li>
+                    <li class="social-hour">about 3 hours ago</li>
                 </ul>
             </div>
-            <div class="col-sm-3">
+            <div class="social col-sm-3">
                 <h3>FACEBOOK</h3>
                 <a href="#">Like!</a>
+                <div class="fbimg row">
+                    <p>1452 people like <a href="#">PromoKit</a></p>
+                    <div class="col-sm-4">
+                        <img src="images/person1.jpg">
+                        <h4>Anna</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="images/person2.jpg">
+                        <h4>Antuan</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="images/person3.jpg">
+                        <h4>Tom</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="images/person4.jpg">
+                        <h4>Milla</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="images/person5.jpg">
+                        <h4>Justine</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="images/person6.jpg">
+                        <h4>Maria</h4>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <!--social media & copyright-->
+    <!--Social Media & Copyright-->
+<div class="footercopy">
     <div class="container">
         <div class="row">
             <footer>
-                <div class="col-sm-8">
-                    <img src="http://via.placeholder.com/25x25">
-                    <img src="http://via.placeholder.com/25x25">
-                    <img src="http://via.placeholder.com/25x25">
-                    <img src="http://via.placeholder.com/25x25">
-                    <img src="http://via.placeholder.com/25x25">
-                    <img src="http://via.placeholder.com/25x25">
-                    <img src="http://via.placeholder.com/25x25">
-                    <img src="http://via.placeholder.com/25x25">
+                <div class="social-media col-sm-8">
+                    <img src="images/fb.jpg">
+                    <img src="images/twitter.jpg">
+                    <img src="images/wifi.jpg">
+                    <img src="images/square.jpg">
+                    <img src="images/in.jpg">
+                    <img src="images/dot.jpg">
+                    <img src="images/skype.jpg">
+                    <img src="images/mail.jpg">
                 </div>
-                <div class="col-sm-4">
+                <div class="copy-right col-sm-4">
                     &copy; 2012 Powered by Woocommerce&trade;.  All rights reserved.
                 </div>
             </footer>
