@@ -107,13 +107,6 @@ body {
     color: #353838;
 }
 /*HERO IMAGE*/
-.hero-back {
-    background: rgb(211,212,210);
-    background: -moz-linear-gradient(top, rgba(211,212,210,1) 0%, rgba(242,242,240,1) 51%, rgba(211,212,210,1) 100%);
-    background: -webkit-linear-gradient(top, rgba(211,212,210,1) 0%,rgba(242,242,240,1) 51%,rgba(211,212,210,1) 100%);
-    background: linear-gradient(to bottom, rgba(211,212,210,1) 0%,rgba(242,242,240,1) 51%,rgba(211,212,210,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3d4d2', endColorstr='#d3d4d2',GradientType=0 );
-}
 
 /*PROMOTIONS*/
 .promo img{
@@ -129,6 +122,7 @@ body {
 .nflash h1{
     border-left: 3px solid #14c0c9;
     color: #424242;
+    padding-left: 5px;
 }
 
 .btn {
@@ -175,6 +169,7 @@ body {
 .wtv h1{
     border-left: 3px solid #14c0c9;
     color: #424242;
+    padding-left: 5px;
 }
 
 .wtv a{
@@ -188,6 +183,7 @@ body {
 .best h1{
     border-left: 3px solid #14c0c9;
     color: #424242;
+    padding-left: 5px;
 }
 
 .btn {
@@ -237,6 +233,7 @@ body {
 .mf h1{
     border-left: 3px solid #14c0c9;
     color: #424242;
+    padding-left: 5px;
 }
 
 .mf-img {
@@ -369,6 +366,49 @@ body {
 .social-hour {
     color: #949494;
 }
+
+.socialf {
+    color: white;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.socialf p{
+    margin-left: 15px;
+}
+
+.socialf img{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+}
+
+.socialf h4{
+    color: #949494;
+    font-size: 12px;
+    text-align: center;
+}
+
+.socialfbtn {
+    background-color: #14c0c9;
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+    position: absolute;
+    right: 50px;
+    top: 18px;
+}
+
+.socailfbtn a{
+    text-decoration: none;
+}
+
+.socialfpromo {
+    text-decoration: none;
+    color: #14c0c9;
+}
+
 /*SOCIAL MEDIA COPYRIGHT*/
 .footercopy { 
     border-top: 2px solid #353838;
